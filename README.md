@@ -2,7 +2,7 @@
 jquery 左减右加输入框小插件
 调用方法
 
-``html
+```html
 <!doctype html>
 <html>
 <head>
@@ -44,4 +44,4 @@ jquery 左减右加输入框小插件
     </script>
 </body>
 </html>
-``
+```
