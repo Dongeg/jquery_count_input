@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>加减输入框插件插件</title>
+    <style type="text/css">
+        .jian{
+            color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <div id="test">
+
+    </div>
+    <script src="jquery.3.2.1.min.js"></script>
+    <script src="jquery_count_input/jquery_count_input.js"></script>
+    <script>
+        $('#test').countInput({
+            maxNum:"5",
+            width:"300px",
+            height:"100px",
+            reduce:reduce={
+                class:'jian',
+                name:'1'
+            },
+            plus:plus={
+                class:'jia',
+                name:'2'
+            },
+            input:input={
+                class:'input',
+                name:'3'
+            }
+        })
+    </script>
+</body>
+</html>
